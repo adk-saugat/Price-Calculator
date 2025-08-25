@@ -13,7 +13,6 @@ func StringsToFloats(strings []string) ([]float64, error){
 
 		if err != nil{
 			return nil, errors.New("failed to convert string to float")
-			
 		}
 
 		floats = append(floats, floatPrice)
