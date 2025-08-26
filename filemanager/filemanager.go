@@ -19,7 +19,7 @@ func New(inputPath, outputPath string) FileManager{
 	}
 }
 
-func (fm FileManager) WriteJSON(data any) error{
+func (fm FileManager) WriteResult(data any) error{
 	file, err := os.Create(fm.OutputFilePath)
 
 	if err != nil {
